@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1500px;
+  padding: 0px 60px;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 0;
+  background-color: pink;
+}
+nav .nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-center div {
+  height: 100px;
+}
+nav .nav-center #left {
+  background-color: aliceblue;
+  width: 20%;
+}
+nav .nav-center #right {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-center #right div {
+  width: 18%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: lightgreen;
+}
+header .head-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head-center div {
+  width: 45%;
+  height: 600px;
+  background-color: lightsteelblue;
+}
+
+section {
+  width: 100%;
+  padding: 20px 0;
+  background-color: slateblue;
+}
+section .sec-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .sec-center .left, section .sec-center .right {
+  height: 600px;
+}
+section .sec-center .left {
+  width: 35%;
+  background-color: hotpink;
+}
+section .sec-center .right {
+  width: 63%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+section .sec-center .right .top {
+  width: 90%;
+  height: 25%;
+  background-color: aliceblue;
+}
+section .sec-center .right .bottom {
+  width: 100%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 15px;
+}
+section .sec-center .right .bottom div {
+  background-color: darkmagenta;
+}
+
+.sec-2 {
+  width: 100%;
+  padding: 20px 0;
+  background-color: powderblue;
+}
+.sec-2 .sec-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.sec-2 .sec-center .top {
+  width: 60%;
+  height: 200px;
+  background-color: palegoldenrod;
+}
+.sec-2 .sec-center .bottom {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-2 .sec-center .bottom div {
+  width: 30%;
+  height: 100%;
+  background-color: hotpink;
+}
+
+.sec-3 {
+  width: 100%;
+  padding: 20px 0;
+  background-color: slateblue;
+}
+.sec-3 .sec-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-3 .sec-center .left, .sec-3 .sec-center .right {
+  height: 600px;
+  background-color: aliceblue;
+}
+.sec-3 .sec-center .left {
+  width: 35%;
+}
+.sec-3 .sec-center .right {
+  width: 63%;
+}
+
+.sec-4 {
+  width: 100%;
+  padding: 20px 0;
+  background-color: powderblue;
+}
+.sec-4 .sec-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.sec-4 .sec-center .top {
+  width: 60%;
+  height: 200px;
+  background-color: palegoldenrod;
+}
+.sec-4 .sec-center .bottom {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-4 .sec-center .bottom div {
+  width: 30%;
+  height: 100%;
+  background-color: hotpink;
+}
+
+.sec-5 {
+  width: 100%;
+  padding: 20px 0;
+  background-color: lightseagreen;
+}
+.sec-5 .sec-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.sec-5 .sec-center .top {
+  width: 60%;
+  height: 200px;
+  background-color: coral;
+}
+.sec-5 .sec-center .bottom {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-5 .sec-center .bottom div {
+  width: 30%;
+  height: 100%;
+  background-color: black;
+}
+
+.sec-6 {
+  width: 100%;
+  padding: 50px 0;
+  background-color: slateblue;
+}
+.sec-6 .sec-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-6 .sec-center .left, .sec-6 .sec-center .right {
+  height: 400px;
+  background-color: aliceblue;
+}
+.sec-6 .sec-center .left {
+  width: 45%;
+}
+.sec-6 .sec-center .right {
+  width: 45%;
+}
+
+.sec-7 {
+  width: 100%;
+  padding: 150px 0;
+  background-color: navy;
+}
+
+.sec-8 {
+  width: 100%;
+  padding: 150px 0;
+  background-color: fuchsia;
+}
+.sec-8 .sec-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */
